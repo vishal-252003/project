@@ -1,0 +1,47 @@
+import './Userhome.css';
+
+
+function Userhome() {
+
+  return (
+  <>
+  
+ 
+ {/* about section */}
+
+ <section class="about_section layout_padding-bottom">
+   <div class="container  ">
+     <div class="row">
+       <div>
+         <div class="detail-box">
+           <div class="heading_container">
+           &nbsp;<h1>Welcome to Tenders</h1>
+          <br/>
+          <br/>
+           
+             <h2>
+               Userhome Page Component
+             </h2>
+           </div>
+           <p>
+             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+             in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+             are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+             the middle of text. All
+           </p>
+           <a href="">
+             Read More
+           </a>
+         </div>
+       </div>
+     
+     </div>
+   </div>
+ </section>
+
+ {/* end about section */}
+  </>
+  );
+}
+
+export default Userhome;
